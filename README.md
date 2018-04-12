@@ -4,6 +4,12 @@ Docker Logs Tail simultaneously tails logs for all running Docker containers, in
 
 Requires node v6.0.0 or later.
 
+## Try it
+
+```
+docker run -it -v /var/run/docker.sock:/var/run/docker.sock:ro sublimino/dlt
+```
+
 ## Installation
 
 ```

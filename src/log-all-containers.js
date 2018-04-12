@@ -1,6 +1,9 @@
 const Docker = require('dockerode')
 const docker = new Docker()
 const containerLogs = require('./container-logs')
+const dockerStop = require('docker-stop')
+
+dockerStop(null, false)
 
 let watchingContainers = {}
 
